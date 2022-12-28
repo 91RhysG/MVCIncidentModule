@@ -1,0 +1,69 @@
+﻿@model IEnumerable<IncidentModuleWebsite.Models.Incident>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.IncidentType)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Severity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Internal)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IncidentLocation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PeopleInvolved)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Injuries)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Notes)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.IncidentType)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Severity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Internal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IncidentLocation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PeopleInvolved)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Injuries)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Notes)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.IncidentId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.IncidentId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.IncidentId })
+        </td>
+    </tr>
+}
+
+</table>

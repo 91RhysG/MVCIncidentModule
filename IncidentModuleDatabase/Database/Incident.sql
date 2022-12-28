@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Incident]
+(
+	[IncidentId] INT IDENTITY(1,1) NOT NULL PRIMARY KEY,
+	[IncidentType] NVARCHAR(50) NOT NULL,
+	[Severity] NVARCHAR(50) NOT NULL,
+	[Internal] NVARCHAR(1) NOT NULL,
+	[IncidentLocation] NVARCHAR(50) NOT NULL,
+	[PeopleInvolved] NVARCHAR(4000) NOT NULL,
+	[Injuries] NVARCHAR(4000) NOT NULL,
+	[Notes] NVARCHAR(4000) NULL
+)

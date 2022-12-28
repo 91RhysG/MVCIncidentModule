@@ -1,0 +1,74 @@
+﻿@model IncidentModuleWebsite.Models.Incident
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Incident</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IncidentType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IncidentType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Severity)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Severity)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Internal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Internal)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IncidentLocation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IncidentLocation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PeopleInvolved)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PeopleInvolved)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Injuries)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Injuries)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Notes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Notes)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IncidentId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
