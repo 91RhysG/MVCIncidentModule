@@ -7,7 +7,7 @@
       <Diagram DiagramId="9fee3e55ecdc44a797402997baba0aaf" Name="Diagram1">
         <EntityTypeShape EntityType="IncidentModuleDatabaseModel.Contractor" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="IncidentModuleDatabaseModel.Incident" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="IncidentModuleDatabaseModel.Person" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="IncidentModuleDatabaseModel.Person" Width="1.5" PointX="12" PointY="2.125" IsExpanded="true" />
         <EntityTypeShape EntityType="IncidentModuleDatabaseModel.Staff" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="IncidentModuleDatabaseModel.Student" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
       </Diagram>

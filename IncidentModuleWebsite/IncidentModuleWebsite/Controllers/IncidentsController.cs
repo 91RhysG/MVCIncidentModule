@@ -38,6 +38,12 @@ namespace IncidentModuleWebsite.Controllers
         // GET: Incidents/Create
         public ActionResult Create()
         {
+            //Add Incident Types for dropdown
+            //Add Severity for dropdown
+            //Add Internal for dropdown
+            //Add searchable list for people
+            //Add injury listing & people.
+
             return View();
         }
 

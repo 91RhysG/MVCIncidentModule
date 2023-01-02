@@ -28,3 +28,18 @@ textarea {
     background-color: #777;
     border-color: #fff
 }
+
+.outline {
+    border: 1px solid black;
+}
+
+.nav-content-style, .nav-content-style > li > a {
+    padding-right: 1rem;
+    text-decoration: none;
+    color: floralwhite;
+    font-size: large;
+}
+
+.navbar {
+    background: rgba(158,82, 255, 1);
+}

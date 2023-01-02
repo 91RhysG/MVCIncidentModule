@@ -22,7 +22,7 @@ namespace IncidentModuleWebsite.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Rhys Gillham";
 
             return View();
         }
