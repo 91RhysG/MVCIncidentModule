@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="IncidentModuleDatabaseModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Contractor">
+    <Key>
+      <PropertyRef Name="ContractorId" />
+    </Key>
+    <Property Name="ContractorId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Company" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="ReasonForEntry" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="ExpectedFinishDate" Type="datetime" Nullable="false" />
+    <Property Name="FinishedDate" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Incident">
+    <Key>
+      <PropertyRef Name="IncidentId" />
+    </Key>
+    <Property Name="IncidentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IncidentType" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Severity" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Internal" Type="nvarchar" MaxLength="1" Nullable="false" />
+    <Property Name="IncidentLocation" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PeopleInvolved" Type="nvarchar" MaxLength="4000" Nullable="false" />
+    <Property Name="Injuries" Type="nvarchar" MaxLength="4000" Nullable="false" />
+    <Property Name="Notes" Type="nvarchar" MaxLength="4000" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="PersonId" />
+    </Key>
+    <Property Name="PersonId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="LastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FirstName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DateOfBirth" Type="date" Nullable="false" />
+    <Property Name="ContactNumber" Type="nvarchar" MaxLength="15" Nullable="false" />
+    <Property Name="EmailAddress" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Relationship" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Staff">
+    <Key>
+      <PropertyRef Name="StaffId" />
+    </Key>
+    <Property Name="StaffId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmploymentDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentId" />
+    </Key>
+    <Property Name="StudentId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EnrollmentDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="IncidentModuleDatabaseModelStoreContainer">
+    <EntitySet Name="Contractor" EntityType="Self.Contractor" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Incident" EntityType="Self.Incident" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Person" EntityType="Self.Person" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Staff" EntityType="Self.Staff" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

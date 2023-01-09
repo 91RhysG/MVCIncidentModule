@@ -3,5 +3,6 @@
   <PropertyGroup>
     <StartupScript>(Blank)</StartupScript>
     <StartAction>StartNone</StartAction>
+    <TargetConnectionString>Data Source=MAINPC;Initial Catalog=IncidentModuleDatabase;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
   </PropertyGroup>
 </Project>
