@@ -3,6 +3,10 @@
   <PropertyGroup>
     <StartupScript>(Blank)</StartupScript>
     <StartAction>StartNone</StartAction>
-    <TargetConnectionString>Data Source=MAINPC;Initial Catalog=IncidentModuleDatabase;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
+    <TargetConnectionString>Data Source=A2NWPLSK14SQL-v01.shr.prod.iad2.secureserver.net;Initial Catalog=IncidentModuleDatabase;Persist Security Info=True;User ID=Rhys;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False</TargetConnectionString>
+    <TargetDatabase>IncidentModuleDatabase</TargetDatabase>
+    <CreateNewDatabase>False</CreateNewDatabase>
+    <NoAlterStatementsToChangeCLRTypes>False</NoAlterStatementsToChangeCLRTypes>
+    <ScriptDatabaseOptions>False</ScriptDatabaseOptions>
   </PropertyGroup>
 </Project>

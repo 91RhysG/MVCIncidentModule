@@ -12,7 +12,7 @@
 		</CustomData>
 		<CustomData Category="Reference" Type="Assembly">
 			<Metadata Name="LogicalName" Value="IncidentModuleDatabase.dll" />
-			<Metadata Name="FileName" Value="C:\USERS\RHYSG\ONEDRIVE\DOCUMENTS\GITHUB\MVCINCIDENTMODULE\INCIDENTMODULEDATABASE\DATABASE\OBJ\RELEASE\INCIDENTMODULEDATABASE.DLL" />
+			<Metadata Name="FileName" Value="C:\USERS\RHYSG\ONEDRIVE\DOCUMENTS\GITHUB\MVCINCIDENTMODULE\INCIDENTMODULEDATABASE\DATABASE\OBJ\DEBUG\INCIDENTMODULEDATABASE.DLL" />
 			<Metadata Name="AssemblyName" Value="IncidentModuleDatabase" />
 			<Metadata Name="PermissionSet" Value="SAFE" />
 			<Metadata Name="Owner" Value="" />
@@ -20,7 +20,7 @@
 			<Metadata Name="IsVisible" Value="True" />
 			<Metadata Name="IsModelAware" Value="True" />
 			<Metadata Name="SkipCreationIfEmpty" Value="True" />
-			<Metadata Name="AssemblySymbolsName" Value="C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Release\IncidentModuleDatabase.pdb" />
+			<Metadata Name="AssemblySymbolsName" Value="C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Debug\IncidentModuleDatabase.pdb" />
 		</CustomData>
 		<CustomData Category="SqlCmdVariables" Type="SqlCmdVariable" />
 	</Header>

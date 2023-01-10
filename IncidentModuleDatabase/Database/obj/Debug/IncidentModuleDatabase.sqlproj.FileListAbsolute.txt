@@ -4,3 +4,13 @@ C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\Database\Database\bin
 C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\Database\Database\bin\Debug\IncidentModuleDatabase.pdb
 C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\Database\Database\obj\Debug\IncidentModuleDatabase.dll
 C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\Database\Database\obj\Debug\IncidentModuleDatabase.pdb
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\bin\Debug\IncidentModuleDatabase.dacpac
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\bin\Debug\IncidentModuleDatabase.dll
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\bin\Debug\IncidentModuleDatabase.pdb
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Debug\IncidentModuleDatabase.sqlproj.AssemblyReference.cache
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Debug\Model.xml
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Debug\refactor.xml
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Debug\postdeploy.sql
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Debug\predeploy.sql
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Debug\IncidentModuleDatabase.dll
+C:\Users\rhysg\OneDrive\Documents\Github\MVCIncidentModule\IncidentModuleDatabase\Database\obj\Debug\IncidentModuleDatabase.pdb
