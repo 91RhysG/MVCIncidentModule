@@ -133,34 +133,34 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Contractor.cs">
-      <DependentUpon>IncidentReportingModels.tt</DependentUpon>
+      <DependentUpon>IncidentModuleDatabase.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Incident.cs">
-      <DependentUpon>IncidentReportingModels.tt</DependentUpon>
+      <DependentUpon>IncidentModuleDatabase.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\IncidentReportingModels.Context.cs">
+    <Compile Include="Models\IncidentModuleDatabase.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>IncidentReportingModels.Context.tt</DependentUpon>
+      <DependentUpon>IncidentModuleDatabase.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\IncidentReportingModels.cs">
+    <Compile Include="Models\IncidentModuleDatabase.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>IncidentReportingModels.tt</DependentUpon>
+      <DependentUpon>IncidentModuleDatabase.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\IncidentReportingModels.Designer.cs">
+    <Compile Include="Models\IncidentModuleDatabase.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>IncidentReportingModels.edmx</DependentUpon>
+      <DependentUpon>IncidentModuleDatabase.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Person.cs">
-      <DependentUpon>IncidentReportingModels.tt</DependentUpon>
+      <DependentUpon>IncidentModuleDatabase.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Staff.cs">
-      <DependentUpon>IncidentReportingModels.tt</DependentUpon>
+      <DependentUpon>IncidentModuleDatabase.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Student.cs">
-      <DependentUpon>IncidentReportingModels.tt</DependentUpon>
+      <DependentUpon>IncidentModuleDatabase.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -181,15 +181,15 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
-    <Content Include="Models\IncidentReportingModels.Context.tt">
+    <Content Include="Models\IncidentModuleDatabase.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>IncidentReportingModels.edmx</DependentUpon>
-      <LastGenOutput>IncidentReportingModels.Context.cs</LastGenOutput>
+      <DependentUpon>IncidentModuleDatabase.edmx</DependentUpon>
+      <LastGenOutput>IncidentModuleDatabase.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\IncidentReportingModels.tt">
+    <Content Include="Models\IncidentModuleDatabase.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>IncidentReportingModels.edmx</DependentUpon>
-      <LastGenOutput>IncidentReportingModels.cs</LastGenOutput>
+      <DependentUpon>IncidentModuleDatabase.edmx</DependentUpon>
+      <LastGenOutput>IncidentModuleDatabase.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\main.js" />
     <Content Include="favicon.ico" />
@@ -223,12 +223,12 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
-    <EntityDeploy Include="Models\IncidentReportingModels.edmx">
+    <EntityDeploy Include="Models\IncidentModuleDatabase.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>IncidentReportingModels.Designer.cs</LastGenOutput>
+      <LastGenOutput>IncidentModuleDatabase.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\IncidentReportingModels.edmx.diagram">
-      <DependentUpon>IncidentReportingModels.edmx</DependentUpon>
+    <Content Include="Models\IncidentModuleDatabase.edmx.diagram">
+      <DependentUpon>IncidentModuleDatabase.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.6.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.6.1.js" />
